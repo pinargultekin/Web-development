@@ -1,0 +1,258 @@
+<html>
+
+<head>
+      
+    <title>Hand Made Pottery
+    </title>
+</head>
+<body>
+    <input type="image" src="http://www.contemporist.com/wp-content/uploads/2017/03/modern-ceramic-home-decor-drip-220317-1154-01.jpg" alt="Submit"
+        class="center">
+        
+        <nav>
+                <ul>
+                   <li><a href="#home"> Home </a></li> 
+                   <li><a href="#registration"> Registration</a></li>
+                   <li><a href="#class"> Classes </a></li> 
+                   <li><a href="#gallery"> Gallery </a></li>
+                   <li><a href="#calendar"> Calendar </a></li>
+                   <li><a href="#about"> About </a></li>
+                   
+                </ul>
+            </nav> 
+    <h1>Hand Made Pottery
+
+    <address> 123 Winter St. No.23 Boston <p> 617 987 6543</p> </address>
+</h1>
+   
+  
+    
+    <table style="width:100%">
+            <thead>
+                <tr>
+                   <th>Days/Hours</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+        
+            </thead>
+        
+            <tr>
+                <tbody>
+                <td>10.00am-12.00pm</td>
+                <td><button id="btn1" onclick="Cache()">    </button></td>
+                    <td><button id="btn1" onclick="Cache()">    </button></td>
+                        <td><button id="btn1" onclick="Cache()">    </button></td>
+                            <td><button id="btn1" onclick="Cache()">    </button></td>
+                                <td><button id="btn1" onclick="Cache()">    </button></td>
+                                    <td><button id="btn1" onclick="Cache()">    </button></td>
+                                </tbody>
+                                </tr>
+            <tr>
+                <tbody>
+                <td>01.00pm-03.00pm</td>
+                <td><button id="btn1" onclick="Cache()">    </button></td>
+                    <td><button id="btn1" onclick="Cache()">    </button></td>
+                        <td><button id="btn1" onclick="Cache()">    </button></td>
+                            <td><button id="btn1" onclick="Cache()">    </button></td>
+                                <td><button id="btn1" onclick="Cache()">    </button></td>
+                                    <td><button id="btn1" onclick="Cache()">    </button></td>
+                                </tbody>
+                                </tr>
+            <tr>
+                <tbody>
+                <td>04.00pm-06.00pm</td>
+                <td><button id="btn1" onclick="Cache()">    </button></td>
+                    <td><button id="btn1" onclick="Cache()">    </button></td>
+                        <td><button id="btn1" onclick="Cache()">    </button></td>
+                            <td><button id="btn1" onclick="Cache()">    </button></td>
+                                <td><button id="btn1" onclick="Cache()">    </button></td>
+                                    <td><button id="btn1" onclick="Cache()">    </button></td>
+           
+                                </tbody>
+                                                 </tr>
+            <tr>
+                    <tbody> 
+                <td>07.00pm-09.00pm</td>
+                
+                <td><button id="btn1" onclick="Cache()">    </button></td>
+                    <td><button id="btn1" onclick="Cache()">    </button></td>
+                        <td><button id="btn1" onclick="Cache()">    </button></td>
+                            <td><button id="btn1" onclick="Cache()">    </button></td>
+                                <td><button id="btn1" onclick="Cache()">    </button></td>
+                                    <td><button id="btn1" onclick="Cache()">    </button></td>
+                </tbody>
+                                    </tr>
+        </table>
+   
+        <fieldset>
+                <legend>Sign In</legend>
+                <div>
+                        <label for="email">E-mail : </label>
+                    <input type="text" id="email" name="email" value="willsmith@example.com">
+                    
+                </div>
+                <div>
+                        <label for="Password">Password :</label>
+                    <input type="text" id="password" name="password" value="********">
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+
+                </div>
+            </fieldset>
+        <article>
+       
+   
+                <p>Hand Made Pottery offers adult and youth classes.
+                    All adult pottery classes focus on wheel throwing techniques.
+                    Youth classes focus on hand built pottery techniques.
+                    Our small group size ensures individual guidance and ample time with the instructor to address any questions our students have. 
+                    Various throwing projects, glazing and surface techniques will be explored in all of the classes. 
+                    Each one of our instructors is prepared to help you with getting started with the very basics or to consult while developing your own individual pottery style. 
+                    When registering for a pottery class, please choose the class day and time that fits your schedule for the entire session. 
+                    Details about missed class, make-up policy, and firing fees are below.
+                </p>
+            </article>
+
+
+            <script>
+                    console.log("Running script in header");
+                    function Cache() {alert("You chose the class")}
+</script>
+<section>
+    <h2>DEALS</h2>
+    <P>Group and family deals are available.</P>
+    <fieldset>
+            <legend>Choose a deal</legend>
+            <div>
+                <input type="checkbox" id="dealOne" name="interest[]" value="TwoPeople">
+                <label for="TwoPeople">Couples</label>
+            </div>
+            <div>
+                <input type="checkbox" id="dealTwo" name="interest[]" value="ThreePeople">
+                <label for="ThreePeople">Three People</label>
+            </div>
+
+            <div>
+                    <input type="checkbox" id="dealThree" name="interest[]" value="FourPeople">
+                    <label for="FourPeople">Four People</label>
+                </div>
+                <div>
+                        <input type="checkbox" id="dealFour" name="interest[]" value="FourPeople">
+                        <label for="FourPeople">Five People</label>
+                    </div>
+
+        </fieldset>
+        <h2>FIRING FEES AND MAKE-UP CLASSES</h2>
+        <P>
+                A fee of $.01 cents per cubic inch will charged to fire work, this fee includes both bisque and glaze firings.
+
+                Students may make up missed classes at any other class time during the same session by emailing info@handmadepottery.com to inquire about available spaces.
+                
+               <p>+ $50 non-refundable deposit is required at registration.</p> 
+                
+                <p>+ <strong>No Refunds</strong> will be given once the session begins.</p>
+                
+                <p>+ Fees may not be transferred to another session.</p>
+                
+               <p>+ Class Fee includes one two hour class a week, all materials, tools and practice time during scheduled hours.</p> 
+                
+               
+        </P>
+</section>
+
+    <style>
+        address {
+            font-size: 15;
+            font-style: verdana;
+            text-align: center;
+            color: coral;
+            background-color: dimgray
+        }
+
+        h1 {
+            font-size: 400%;
+            font-style: italic;
+            text-align: center;
+            color: darksalmon;
+            background-color: dimgray
+        }
+        section{
+            font-size: 18;
+            font-style: verdana;
+            color:dimgray
+        }
+h2{
+    font-size: 200%;
+    font-style: italic;
+    text-align: center;
+    color: coral
+}
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%
+        }
+
+        article {
+            font-size: 18;
+            font-style: verdana;
+            color:dimgray
+        }
+
+        nav {
+            text-align:center;
+            
+        }
+
+        button {
+            table-layout: auto
+        }
+
+        button:hover {
+            background-color: lightgreen
+        }
+        .submit{ background-color: ivory}
+
+        table{ align-content: right;text-align-last: center; text-align: center;  font-style: italic; border-block-start: dotted; border-block-end: dotted;
+         border-block-end-color: indianred; border-block-start-color: indianred}
+         ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:gray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: darksalmon;
+}
+
+.active {
+    background-color:darksalmon;
+}
+   fieldset{
+       display: inline;
+   }
+    </style>
+</body>
+
+</html>
