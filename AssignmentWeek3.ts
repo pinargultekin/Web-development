@@ -41,5 +41,5 @@ enum OscarWinners{
     
     let perf = new WinnersOf2017("Emma Stone", 2017, "La La Land");
     
-    document.body.innerHTML = winner(perf);
+    document.body.innerHTML = winner(performer);
     
