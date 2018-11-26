@@ -181,9 +181,9 @@ function Get(){
      
      let objectKeys = Object.keys(data);
    //  let dataArray = [];
-     //for( i =0; i < objectKeys.length; i++){
-       //  dataArray.push(data[objectKeys[i]]);
-     //}
+     for( i =0; i < objectKeys.length; i++){
+        dataArray.push(data[objectKeys[i]]);
+     }
     DisplayJSONobjectArrayAsTable(dataArray,"table", tableHeadings);
     let pretyJSON = JSON.stringify(data, null, 2);
     $('#images').html("<pre>" +pretyJSON +"</pre>") ;
