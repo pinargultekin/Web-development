@@ -134,7 +134,7 @@
   <div id="images"></div>
   <table id="table"></table>
  <script>
-  function DisplayJSONobjectArrayAsTable(arrayOfObjects, elementID, keyToHeadingArray) {
+ // function DisplayJSONobjectArrayAsTable(arrayOfObjects, elementID, keyToHeadingArray) {
     let innerHTML = "";
     let keys = [];
     if (arrayOfObjects.length > 0) {
@@ -180,7 +180,7 @@ function Get(){
     
      
      let objectKeys = Object.keys(data);
-   //  let dataArray = [];
+   let dataArray = [];
      for( i =0; i < objectKeys.length; i++){
         dataArray.push(data[objectKeys[i]]);
      }
