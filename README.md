@@ -23,10 +23,10 @@ The website is built with;
 
 <a name="display"></a>
 ## Website Display
-<img src="assets/images/home1.PNG" alt="home-display">
+<img src="home1.PNG" alt="home-display">
 <br>
-<img src="assets/images/home2.PNG" alt="shopping-display">
+<img src="home2.PNG" alt="shopping-display">
 <br>
-<img src="assets/images/home3.PNG" alt="contact-display">
+<img src="home3.PNG" alt="contact-display">
 <br>
-<img src="assets/images/home4.PNG" alt="cart-display">
+<img src="home4.PNG" alt="cart-display">
